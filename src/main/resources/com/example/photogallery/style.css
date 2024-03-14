@@ -1,0 +1,39 @@
+.root {
+    -fx-background-image: url('back.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 5 0 0 280px;
+}
+
+.tile-pane {
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #000000;
+}
+
+#fullImageView {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+
+
+
+
